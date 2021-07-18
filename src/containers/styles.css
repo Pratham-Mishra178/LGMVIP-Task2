@@ -1,0 +1,78 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copy{
+  margin-bottom: 0;
+}
+
+h1{
+  text-align: center;
+  color: black;
+}
+
+.bod{
+  border-radius: 5px;
+}
+
+.col{
+  background-color: rgba(255, 255, 255, 0.11);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  width: 300px;
+}
+
+.click{
+  background-color: rgba(255, 255, 255, 0.103);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  height: 50vh;
+  width: 60vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.term{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+}
+.but1{
+  border-radius: 50%;
+  background-color: red;
+  width: 18px;
+  height: 18px;
+}
+.but2 {
+  border-radius: 50%;
+  background-color: yellow;
+  width: 18px;
+  height: 18px;
+}
+.but3 {
+  border-radius: 50%;
+  background-color: green;
+  width: 18px;
+  height: 18px;
+}
+.term > button{
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
